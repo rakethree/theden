@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Fixedsys';
+    src: url('fonts/FSEX300.woff') format('woff'); /* Adjust path if necessary */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+body {
+    background-color: #071C21;
+    margin :0;  
+}
+
+* {
+    font-family: 'Fixedsys';
+    color: #21E6C1;
+}
+
+/* Style for the parent header container */
+.header {
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Space between h1 and nav */
+    align-items: center; /* Align vertically in the center */
+    padding: 50px; /* Add some padding */ /* Text color */
+  }
+  
+  /* h1 styling */
+  .header h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .header h1:hover {
+    color: #D8E9A8;
+  }
+  /* Navbar styling */
+  .navbx {
+    text-align: right; /* Ensure text aligns right inside the nav */
+  }
+  
+  /* Navbar links */
+  .ult {
+    list-style: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display links horizontally */
+    gap: 20px; /* Space between links */
+  }
+  
+  .ult li a {
+    text-decoration: none; /* Remove underline */ /* Green text */
+    font-size: 1.2rem; /* Adjust font size */
+  }
+  
+  .ult li a:hover {
+    color: #D8E9A8; /* Lighter green on hover */
+  }
+  
+hr {
+    border: none;
+    border-top: 0.1em dashed #D8E9A8;
+    margin:0;
+}
+
+.Blogs {
+    display: block;
+    justify-items: center;
+    justify-content:space-evenly;
+    margin: auto;
+}
+
+.Blogs h2 {
+    font-size: 30px;
+}
+
+.Blogs h4:hover {
+    color: #278EA5;
+}
+
+/* Style the FAQ container */
+.bloglist {
+    max-width: 65%;
+    margin: 20px auto;
+  }
+  
+  /* Style the question */
+  .titles {
+    cursor: pointer;
+    background-color: #071C21;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px dotted #ccc;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .titles:hover {
+    background-color: #21E6C1;
+    color:#071C21;
+  }
+  
+  /* Style the answer (initially hidden) */
+  .content {
+    display: none;
+    padding: 10px;
+    background-color:#071C21;
+    margin: 0;
+  }
+   /*
+  dh : #071C21
+  dl : #1F4287
+  lh : #278EA5
+  ll : #21E6C1
+  */
